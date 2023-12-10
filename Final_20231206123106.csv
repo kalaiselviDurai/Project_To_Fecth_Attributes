@@ -1,0 +1,53 @@
+,Cattype,Attributes,Filter,Value,count
+0,AutoPay,SI_on_DC_s,Contains,,178
+1,DBC,DC_Last_Transaction_Date_dt,GreaterThan,>'01-11-2023',3395
+2,DBC,MB_Last_Transaction_Date_dt,GreaterThan,>'01-11-2023',2911
+3,Credit_Card,CC_XFR_Date_dt,GreaterThan,>'01-11-2023',1830
+4,product_holding,Date_Regn_dt,LessThan,<'01-11-2023',1136
+5,product_holding,JUMBO_EMI_Last_Book_Date_dt,GreaterThanorEqualTo,>='01-11-2023',0
+6,Forex,Forex_Card_Last_Tran_dt,LessThanOREqualTo,<=01-11-2023,53
+7,AutoPay,SI_on_CC_s,EqualTo,Y,19
+8,Acc Info,COCODE_Tag_s,EqualTo,Y,11
+9,RM_Feedback,Utility_Bill_Payment_s,EqualTo,N,9
+10,RM_Feedback,Nb_Mb_s,EqualTo,Y,18
+11,RM_Feedback,Forex_s,EqualTo,Y,3
+12,Forex,Forex_Tag_s,EqualTo,Y,187
+13,Market_Reco,Rank3_s,EqualTo,AL,442
+14,Market_Reco,Rank2_s,EqualTo,AL,597
+15,Market_Reco,Rank1_s,EqualTo,AL,407
+16,product_holding,PremiumAmount_d,GreaterThan,>0,246
+17,Forex,Forex_Tag_s,EqualTo,Y,187
+18,CIHMaster,Payzapp_SmartBuy_Int_s,EqualTo,Y,24
+19,DBC,NB_Active_Last30Days_s,EqualTo,Y,5906
+20,Acc Info,LatestSalCredit_d,GreaterThan,>50000,3123
+21,product_holding,JUMBO_LOAN_AMT_d,LessThan,<500000,387
+22,Forex,Transacted_Amount_d,GreaterThan,>10000,13
+23,Credit_Card,CC_Forex_Tag_s,EqualTo,Y,350
+24,CIHMaster,CASA_Tag_s,EqualTo,Y,14694
+25,CIHMaster,Casa_Active_Tag_s,EqualTo,Retail Active ,0
+26,product_holding,PremiumFrequency_s,EqualTo,1 Year,1
+27,DBC,CASA_Account_Dormancy_s,EqualTo,Active,8171
+28,product_holding,COC_Closed_s,Has Value,Has Value,1050
+29,product_holding,INSTAL_EMI_Last_Book_Date_dt,Has Value,Has Value,251
+30,product_holding,INSTAL_LOAN_AMT_d,Has Value,Has Value,251
+31,Acc Info,COCODE_s,Has Value,Has Value,5215
+32,product_holding,COC_Loan_Emi_Amt_i,Has Value,Has Value,1301
+33,product_holding,COC_Loan_Amt_i,Has Value,Has Value,1301
+34,product_holding,COC_Emi_Loan_Booked_Date_dt,Has Value,Has Value,1800
+35,product_holding,COC_s,Has Value,Has Value,1301
+36,Debit_Card_20,DC_Latest_Hotlist_Tag_s,Has Value,Has Value,624
+37,Credit_Card,CC_Opened_Date_dt,Has Value,Has Value,5044
+38,Credit_Card,CC_Last_Purchase_dt,Has Value,Has Value,4108
+39,Credit_Card,CC_Limit_i,Has Value,Has Value,5044
+40,Credit_Card,CC_Block_Code_2_s,Has Value,Has Value,5044
+41,Credit_Card,CC_Block_Code_1_s,Has Value,Has Value,5044
+42,product_holding,BPRegTag_s,Has Value,Has Value,1028
+43,MCC,MCC_Q1_Trnxs_i,Has Value,Has Value,4698
+44,MCC,MCC_Q1_Spends_d,Has Value,Has Value,4698
+45,MCC,M2_Spends_d,Has Value,Has Value,3555
+46,MCC,M1_Spends_d,Has Value,Has Value,3660
+47,MCC,MCC_M0_Spends_d,Has Value,Has Value,0
+48,Forex,Forex_Category_s,EqualTo,Forex Card Load,67
+49,DBC,NB_Last_Transaction_Date_dt,GreaterThanorEqualTo,>='01-11-2023',0
+50,DBC,NB_FT_Last_Date_Transacted_dt,GreaterThanorEqualTo,>='01-11-2023',0
+51,Bill_Pay,DirectPay_Utility_Last_Trxn_Date_dt,GreaterThanorEqualTo,>='01-11-2023',0

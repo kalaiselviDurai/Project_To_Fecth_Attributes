@@ -1,0 +1,323 @@
+{
+    "Att1": {
+        "Attributes": "SI_on_DC_s",
+        "Cattype": "AutoPay",
+        "Value": {"A": "Y", "B": "N"},
+		"Conditions":"Contains"
+    },
+    "Att2": {
+        "Attributes": "SI_on_CC_s",
+        "Cattype": "AutoPay",
+        "Value": "Y",
+		"Conditions":"EqualTo"
+    },
+    "Att3": {
+        "Attributes": "COCODE_Tag_s",
+        "Cattype": "Acc Info",
+        "Value": "Y",
+		"Conditions":"EqualTo"
+    },
+    "Att4": {
+        "Attributes": "Utility_Bill_Payment_s",
+        "Cattype": "RM_Feedback",
+        "Value": "N",
+		"Conditions":"EqualTo"
+    },
+	"Att5": {
+        "Attributes": "Nb_Mb_s",
+        "Cattype": "RM_Feedback",
+        "Value": "Y",
+		"Conditions":"EqualTo"
+    },
+    "Att6": {
+        "Attributes": "Forex_s",
+        "Cattype": "RM_Feedback",
+        "Value": "Y",
+		"Conditions":"EqualTo"
+    },
+    "Att7": {
+        "Attributes": "Forex_Tag_s",
+        "Cattype": "Forex",
+        "Value": "Y",
+		"Conditions":"EqualTo"
+    },
+	"Att8": {
+        "Attributes": "Rank3_s",
+        "Cattype": "Market_Reco",
+        "Value": "AL",
+		"Conditions":"EqualTo"
+    },
+	"Att9": {
+        "Attributes": "Rank2_s",
+        "Cattype": "Market_Reco",
+        "Value": "AL",
+		"Conditions":"EqualTo"
+    },
+	"Att10": {
+        "Attributes": "Rank1_s",
+        "Cattype": "Market_Reco",
+		"Value":"AL",
+        "Conditions":"EqualTo"
+    },
+	"Att11": {
+        "Attributes": "PremiumAmount_d",
+        "Cattype": "product_holding",
+        "Value":">0",
+		"Conditions":"GreaterThan"
+    },
+	"Att12": {
+        "Attributes": "Forex_Tag_s",
+        "Cattype": "Forex",
+        "Value": "Y",
+		"Conditions":"EqualTo"
+    },
+	"Att13": {
+        "Attributes": "Payzapp_SmartBuy_Int_s",
+        "Cattype": "CIHMaster",
+        "Value": "Y",
+		"Conditions":"EqualTo"
+    },
+	"Att14": {
+        "Attributes": "NB_Active_Last30Days_s",
+        "Cattype": "DBC",
+        "Value": "Y",
+		"Conditions":"EqualTo"
+
+    },
+	"Att15": {
+        "Attributes": "LatestSalCredit_d",
+        "Cattype": "Acc Info",
+        "Value": ">50000",
+		"Conditions":"GreaterThan"
+    },
+	"Att16": {
+        "Attributes": "JUMBO_LOAN_AMT_d",
+        "Cattype": "product_holding",
+        "Value": "<500000",
+		"Conditions":"LessThan"
+    },
+	"Att17": {
+        "Attributes": "Transacted_Amount_d",
+        "Cattype": "Forex",
+        "Value": ">10000",
+		"Conditions":"GreaterThan"
+    },
+	"Att18": {
+        "Attributes": "CC_Forex_Tag_s",
+        "Cattype": "Credit_Card",
+        "Value": "Y",
+		"Conditions":"EqualTo"
+    },
+	"Att19": {
+        "Attributes": "CASA_Tag_s",
+        "Cattype": "CIHMaster",
+        "Value": "Y",
+		"Conditions":"EqualTo"
+    },
+	"Att20": {
+        "Attributes": "Casa_Active_Tag_s",
+        "Cattype": "CIHMaster",
+        "Value": "Retail Active ",
+		"Conditions":"EqualTo"
+    },
+	"Att21": {
+        "Attributes": "PremiumFrequency_s",
+        "Cattype": "product_holding",
+        "Value": "1 Year",
+		"Conditions":"EqualTo"
+    },
+	"Att22": {
+        "Attributes": "CASA_Account_Dormancy_s",
+        "Cattype": "DBC",
+        "Value": "Active",
+		"Conditions":"EqualTo"
+    },
+	"Att23": {
+        "Attributes": "COC_Closed_s",
+        "Cattype": "product_holding",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att24": {
+        "Attributes": "INSTAL_EMI_Last_Book_Date_dt",
+        "Cattype": "product_holding",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att25": {
+        "Attributes": "INSTAL_LOAN_AMT_d",
+        "Cattype": "product_holding",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att26": {
+        "Attributes": "COCODE_s",
+        "Cattype": "Acc Info",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att27": {
+        "Attributes": "COC_Loan_Emi_Amt_i",
+        "Cattype": "product_holding",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att28": {
+        "Attributes": "COC_Loan_Amt_i",
+        "Cattype": "product_holding",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att29": {
+        "Attributes": "COC_Emi_Loan_Booked_Date_dt",
+        "Cattype": "product_holding",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att30": {
+        "Attributes": "COC_s",
+        "Cattype": "product_holding",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att31": {
+        "Attributes": "DC_Latest_Hotlist_Tag_s",
+        "Cattype": "Debit_Card_20",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att32": {
+        "Attributes": "CC_Opened_Date_dt",
+        "Cattype": "Credit_Card",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att33": {
+        "Attributes": "CC_Last_Purchase_dt",
+        "Cattype": "Credit_Card",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att34": {
+        "Attributes": "CC_Limit_i",
+        "Cattype": "Credit_Card",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att35": {
+        "Attributes": "CC_Block_Code_2_s",
+        "Cattype": "Credit_Card",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att36": {
+        "Attributes": "CC_Block_Code_1_s",
+        "Cattype": "Credit_Card",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att37": {
+        "Attributes": "BPRegTag_s",
+        "Cattype": "product_holding",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att38": {
+        "Attributes": "MCC_Q1_Trnxs_i",
+        "Cattype": "MCC",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att39": {
+        "Attributes": "MCC_Q1_Spends_d",
+        "Cattype": "MCC",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att40": {
+        "Attributes": "M2_Spends_d",
+        "Cattype": "MCC",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att41": {
+        "Attributes": "M1_Spends_d",
+        "Cattype": "MCC",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att42": {
+        "Attributes": "MCC_M0_Spends_d",
+        "Cattype": "MCC",
+        "Conditions": "Has Value",
+		"Value": "Has Value"
+    },
+	"Att43": {
+        "Attributes": "Forex_Category_s",
+        "Cattype": "Forex",
+        "Value": "Forex Card Load",
+		"Conditions":"EqualTo"
+    },
+	"Att44": {
+        "Attributes": "NB_Last_Transaction_Date_dt",
+        "Cattype": "DBC",
+        "Value": ">='01-11-2023'",
+		"Conditions":"GreaterThanorEqualTo"
+    },
+	"Att45": {
+        "Attributes": "NB_FT_Last_Date_Transacted_dt",
+        "Cattype": "DBC",
+        "Value": ">='01-11-2023'",
+		"Conditions":"GreaterThanorEqualTo"
+    },
+	"Att46": {
+        "Attributes": "DirectPay_Utility_Last_Trxn_Date_dt",
+        "Cattype": "Bill_Pay",
+        "Value": ">='01-11-2023'",
+		"Conditions":"GreaterThanorEqualTo"
+    },
+	"Att47": {
+        "Attributes": "DC_Last_Transaction_Date_dt",
+        "Cattype": "DBC",
+        "Value": ">'01-11-2023'",
+		"Conditions":"GreaterThan"
+    },
+	"Att48": {
+        "Attributes": "MB_Last_Transaction_Date_dt",
+        "Cattype": "DBC",
+        "Value": ">'01-11-2023'",
+		"Conditions":"GreaterThan"
+    },
+	"Att49": {
+        "Attributes": "CC_XFR_Date_dt",
+        "Cattype": "Credit_Card",
+        "Value": ">'01-11-2023'",
+		"Conditions":"GreaterThan"
+    },
+	"Att50": {
+        "Attributes": "Date_Regn_dt",
+        "Cattype": "product_holding",
+        "Value": "<'01-11-2023'",
+		"Conditions":"LessThan"
+    },
+	"Att51": {
+        "Attributes": "JUMBO_EMI_Last_Book_Date_dt",
+        "Cattype": "product_holding",
+        "Value": ">='01-11-2023'",
+		"Conditions":"GreaterThanorEqualTo"
+    },
+	"Att52": {
+        "Attributes": "Forex_Card_Last_Tran_dt",
+        "Cattype": "Forex",
+        "Value": "<=01-11-2023",
+		"Conditions":"LessThanOrEqualTo"
+    }
+
+
+}
+
+
+
+
+
+
